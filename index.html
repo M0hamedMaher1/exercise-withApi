@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/main7.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="left-ul">
+                        <div class="first">
+                            <i class="fa-solid fa-bars"></i>
+                            <h3>Browse All Categories</h3>
+                        </div>
+                        <ul class="mainUl">
+                            <li><a href="#">home <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">shop <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">products <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropDown">
+                                    <li>
+                                        <h5 class="nav-links">pizza</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">chicken</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">salad</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">onion</h5>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">blog <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#"><span>buy uminex!</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="right-disc">
+                        <i class="fa-solid fa-percent"></i>
+                        <a href="#">
+                            Sale $20 Off Your First Order.
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="up">
+            <div class="container">
+                <div class="nav-row">
+                    <h3>You are a student and students get 20% discount.</h3>
+                    <div class="right-ul">
+                        <ul>
+                            <li><a href="#">Store Locator</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                        <div class="eng">
+                            <h4>English <i class="fa-solid fa-angle-down"></i></h4>
+                            <h4>United States(USD $) <i class="fa-solid fa-angle-down"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="container">
+                <div class="mid-row">
+                    <div class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        <h1>
+                            <a href="./index.html">
+                                <img src="./imgs2/Logo_fb7c7c58-1b8f-455e-8b97-56d607743b37_145x@2x.avif" alt="">
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="mid-input">
+                        <input type="text" onkeyup="searchProduct(this.value)" placeholder="Search For Products...">
+                        <div class="selection">
+                            <select>
+                                <option disabled selected>All Categories</option>
+                            </select>
+                        </div>
+                        <button class="search">
+                            Search
+                        </button>
+                    </div>
+                    <div class="right-status">
+                        <div class="acc">
+                            <i class="fa-regular fa-user"></i>
+                            <div class="right">
+                                <h4>LogIn</h4>
+                                <h3>Account</h3>
+                            </div>
+                        </div>
+                        <i class="fa-regular fa-heart clicks heartt"><span>0</span></i>
+                        <div class="cart">
+                            <a href="./cart7.html">
+                                <i class="fa-solid fa-cart-shopping clicks"><span>0</span></i>
+                            </a>
+                            <div class="right">
+                                <h4>Your Cart</h4>
+                                <h3>$0.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="aside1">
+            <div class="aside-container">
+                <div class="aside-content">
+                    <div class="close">
+                        <h3>Close <i class="fa-solid fa-xmark"></i></h3>
+                    </div>
+                    <label for="inp">what are you looking for ?</label>
+                    <div class="aside-input">
+                        <input type="text" onkeyup="searchProduct(this.value)" id="inp" placeholder="Search...">
+                        <div class="search2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="bottom-ul">
+                        <ul>
+                            <li>
+                                <h5 class="nav-links">pizza</h5>
+                            </li>
+                            <li>
+                                <h5 class="nav-links">chicken</h5>
+                            </li>
+                            <li>
+                                <h5 class="nav-links">salad</h5>
+                            </li>
+                            <li>
+                                <h5 class="nav-links">onion</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="last">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="left-ul">
+                        <div class="first">
+                            <i class="fa-solid fa-bars"></i>
+                            <h3>Browse All Categories</h3>
+                        </div>
+                        <ul class="mainUl">
+                            <li><a href="#">home <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">shop <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">products <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropDown">
+                                    <li>
+                                        <h5 class="nav-links">pizza</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">chicken</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">salad</h5>
+                                    </li>
+                                    <li>
+                                        <h5 class="nav-links">onion</h5>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">blog <i class="fa-solid fa-angle-down"></i></a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#"><span>buy uminex!</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="right-disc">
+                        <i class="fa-solid fa-percent"></i>
+                        <a href="#">
+                            Sale $20 Off Your First Order.
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-row">
+                    <div class="left-main-ul">
+                        <ul>
+                            <li><a href="#">Computer & Desktop</a></li>
+                            <li><a href="#">Laptop & Ipad</a></li>
+                            <li><a href="#">Cameras & Photos</a></li>
+                            <li><a href="#">Smart Phones & Tablets</a></li>
+                            <li><a href="#">Home & Kitchen</a></li>
+                            <li><a href="#">TV & Audios</a></li>
+                            <li><a href="#">Health & Beauty</a></li>
+                            <li><a href="#">Watches & Eyewear</a></li>
+                            <li><a href="#">Top Deals</a></li>
+                            <li><a href="#">Top Selling Products</a></li>
+                            <li><a href="#">Top Featured Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <div class="left-content">
+                            <div class="big-image">
+                                <img src="./imgs2/banner_3_1.webp" alt="">
+                                <div class="pos">
+                                    <span>GALAXY TAP 2022</span>
+                                    <h2>Top Trending<br>Galaxy Tap S6 Ultra</h2>
+                                    <button>shop now</button>
+                                </div>
+                            </div>
+                            <div class="none small-cards">
+                                <img src="./imgs2/phone1-small.avif" alt="">
+                                <h3>tablet</h3>
+                            </div>
+                            <div class="small-cards">
+                                <img src="./imgs2/phone2.small.avif" alt="">
+                                <h3>phone</h3>
+                            </div>
+                            <div class="small-cards">
+                                <img src="./imgs2/camera-small.avif" alt="">
+                                <h3>camera</h3>
+                            </div>
+                            <div class="small-cards">
+                                <img src="./imgs2/controller1-small.avif" alt="">
+                                <h3>gamepad</h3>
+                            </div>
+                            <div class="none small-cards">
+                                <img src="./imgs2/tablet-small.avif" alt="">
+                                <h3>tablet</h3>
+                            </div>
+                        </div>
+                        <div class="right-cards">
+                            <div class="right-card">
+                                <img src="./imgs2/headphones.webp" alt="">
+                                <div class="pos2">
+                                    <h3>over-ear<br>headphones</h3>
+                                    <p>20 days return products</p>
+                                </div>
+                            </div>
+                            <div class="right-card">
+                                <img src="./imgs2/airbuds.webp" alt="">
+                                <div class="pos2">
+                                    <h3>AirPods<br>Save 20% Off</h3>
+                                    <p>20 days return products</p>
+                                </div>
+                            </div>
+                            <div class="right-card">
+                                <img src="./imgs2/gamepad.webp" alt="">
+                                <div class="pos2">
+                                    <h3>Gamepad<br>Optional Skins</h3>
+                                    <p>20 days return products</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <ul class="feature">
+                    <li><a href="#" class="one">FEATURED</a></li>
+                    <li><a href="#" class="two">TOP TRENDING</a></li>
+                    <li><a href="#" class="two">ON-SALE</a></li>
+                </ul>
+                <div class="products-row">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./imgs2/watch1.webp" alt="">
+                            <img src="./imgs2/watch2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Stainless Steel Case With Braided Solo Loop</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(1 review)</h4>
+                            </div>
+                            <span class="price">
+                                $848.00
+                            </span>
+                            <span class="out">
+                                <i class="fa-solid fa-check"></i> out of stock
+                            </span>
+                            <button class="buy">
+                                out of stock
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <span>-11%</span>
+                            <img src="./imgs2/lap1.webp" alt="">
+                            <img src="./imgs2/lap2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Macbook Air M1 2020 8GB 256GB/7-Core...</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(1 review)</h4>
+                            </div>
+                            <div class="disc">
+                                <span class="price2">
+                                    $830.00
+                                </span>
+                                <span class="discount">
+                                    $930.00
+                                </span>
+                            </div>
+                            <span class="out">
+                                <i class="fa-solid fa-check"></i> Only 3 Left in Stock
+                            </span>
+                            <button class="buy2">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./imgs2/watch1.webp" alt="">
+                            <img src="./imgs2/watch2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Apple Watch Almunium Case With Sport Loop</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(2 review)</h4>
+                            </div>
+                            <span class="price">
+                                $49.00
+                            </span>
+                            <span class="in">
+                                <i class="fa-solid fa-check"></i> in Stock <span>10 Products</span>
+                            </span>
+                            <button class="buy2">
+                                select options
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <span>-6.7%</span>
+                            <img src="./imgs2/usb1.webp" alt="">
+                            <img src="./imgs2/usb2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>TalkWoks iPhone Charger Lightning</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(2 review)</h4>
+                            </div>
+                            <div class="disc">
+                                <span class="price2">
+                                    $28.00
+                                </span>
+                                <span class="discount">
+                                    $30.00
+                                </span>
+                            </div>
+                            <span class="in">
+                                <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                            </span>
+                            <button class="buy2">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <span>-7%</span>
+                            <img src="./imgs2/handfree1.webp" alt="">
+                            <img src="./imgs2/handfree2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Apple Watch Magnetic Fast Charger To USB-A</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(1 review)</h4>
+                            </div>
+                            <div class="disc">
+                                <span class="price2">
+                                    $69.00
+                                </span>
+                                <span class="discount">
+                                    $100.00
+                                </span>
+                            </div>
+                            <span class="in">
+                                <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                            </span>
+                            <button class="buy2">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <span>-19%</span>
+                            <img src="./imgs2/airpods1.webp" alt="">
+                            <img src="./imgs2/airpods2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Apple AirPods Pro MWP22A M/A...</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(2 review)</h4>
+                            </div>
+                            <div class="disc">
+                                <span class="price2">
+                                    $428.00
+                                </span>
+                                <span class="discount">
+                                    $528.00
+                                </span>
+                            </div>
+                            <span class="in">
+                                <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                            </span>
+                            <button class="buy2">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mid-image">
+            <div class="container">
+                <div class="mid-images">
+                    <div class="inside">
+                        <h3>APPLY CARD TODAY AND <span>GET DISCOUNT</span></h3>
+                        <p>In rewards on your first day of purchase when your approved for the card.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testing">
+            <div class="container">
+                <div class="buttons">
+                    <i class="fa-solid fa-angle-left" id="left"></i>
+                    <i class="fa-solid fa-angle-right" id="right"></i>
+                </div>
+                <div class="test">
+                    <div class="testing-row">
+                        <div class="card card2">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Stainless Steel Case With Braided Solo Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $848.00
+                                </span>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> out of stock
+                                </span>
+                                <button class="buy">
+                                    out of stock
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-11%</span>
+                                <img src="./imgs2/lap1.webp" alt="">
+                                <img src="./imgs2/lap2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Macbook Air M1 2020 8GB 256GB/7-Core...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $830.00
+                                    </span>
+                                    <span class="discount">
+                                        $930.00
+                                    </span>
+                                </div>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> Only 3 Left in Stock
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Almunium Case With Sport Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $49.00
+                                </span>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> in Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-6.7%</span>
+                                <img src="./imgs2/usb1.webp" alt="">
+                                <img src="./imgs2/usb2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>TalkWoks iPhone Charger Lightning</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $28.00
+                                    </span>
+                                    <span class="discount">
+                                        $30.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-7%</span>
+                                <img src="./imgs2/handfree1.webp" alt="">
+                                <img src="./imgs2/handfree2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Magnetic Fast Charger To USB-A</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $69.00
+                                    </span>
+                                    <span class="discount">
+                                        $100.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-19%</span>
+                                <img src="./imgs2/airpods1.webp" alt="">
+                                <img src="./imgs2/airpods2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple AirPods Pro MWP22A M/A...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $428.00
+                                    </span>
+                                    <span class="discount">
+                                        $528.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Stainless Steel Case With Braided Solo Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $848.00
+                                </span>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> out of stock
+                                </span>
+                                <button class="buy">
+                                    out of stock
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-11%</span>
+                                <img src="./imgs2/lap1.webp" alt="">
+                                <img src="./imgs2/lap2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Macbook Air M1 2020 8GB 256GB/7-Core...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $830.00
+                                    </span>
+                                    <span class="discount">
+                                        $930.00
+                                    </span>
+                                </div>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> Only 3 Left in Stock
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Almunium Case With Sport Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $49.00
+                                </span>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> in Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card2">
+                            <div class="image">
+                                <span>-6.7%</span>
+                                <img src="./imgs2/usb1.webp" alt="">
+                                <img src="./imgs2/usb2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>TalkWoks iPhone Charger Lightning</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $28.00
+                                    </span>
+                                    <span class="discount">
+                                        $30.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products2">
+            <div class="container">
+                <div class="products2-row">
+                    <div class="card left-big-image">
+                        <h2>TODAY’S OFFER</h2>
+                        <div class="image">
+                            <img src="./imgs2/bigPhone1.webp" alt="">
+                            <img src="./imgs2/bigPhone2.webp" alt="" class="img2">
+                            <div class="icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3>Samsung Galaxy S21 Ultra 128GB - Black</h3>
+                            <div class="card-mid">
+                                <div class="stars">
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                                </div>
+                                <h4>(1 review)</h4>
+                            </div>
+                            <div class="disc">
+                                <span class="price2">
+                                    $830.00
+                                </span>
+                                <span class="discount">
+                                    $930.00
+                                </span>
+                            </div>
+                            <h5>Hurry up! Offer ends in:</h5>
+                            <div class="four-buttons">
+                                <button>00</button>
+                                <p>:</p>
+                                <button>24</button>
+                                <p>:</p>
+                                <button>59</button>
+                                <p>:</p>
+                                <button>60</button>
+                            </div>
+                            <div class="count"></div>
+                            <span class="sold">
+                                Sold: <span>85/100</span>
+                            </span>
+                            <button class="buy2">
+                                add to cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="right-cardat">
+                        <div class="card card3">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Stainless Steel Case With Braided Solo Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $848.00
+                                </span>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> out of stock
+                                </span>
+                                <button class="buy">
+                                    out of stock
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <span>-11%</span>
+                                <img src="./imgs2/lap1.webp" alt="">
+                                <img src="./imgs2/lap2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Macbook Air M1 2020 8GB 256GB/7-Core...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $830.00
+                                    </span>
+                                    <span class="discount">
+                                        $930.00
+                                    </span>
+                                </div>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> Only 3 Left in Stock
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Almunium Case With Sport Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $49.00
+                                </span>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> in Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    select options
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <span>-6.7%</span>
+                                <img src="./imgs2/usb1.webp" alt="">
+                                <img src="./imgs2/usb2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>TalkWoks iPhone Charger Lightning</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $28.00
+                                    </span>
+                                    <span class="discount">
+                                        $30.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <span>-7%</span>
+                                <img src="./imgs2/handfree1.webp" alt="">
+                                <img src="./imgs2/handfree2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Magnetic Fast Charger To USB-A</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $69.00
+                                    </span>
+                                    <span class="discount">
+                                        $100.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <span>-19%</span>
+                                <img src="./imgs2/airpods1.webp" alt="">
+                                <img src="./imgs2/airpods2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple AirPods Pro MWP22A M/A...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $428.00
+                                    </span>
+                                    <span class="discount">
+                                        $528.00
+                                    </span>
+                                </div>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> In Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <span>-11%</span>
+                                <img src="./imgs2/lap1.webp" alt="">
+                                <img src="./imgs2/lap2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Macbook Air M1 2020 8GB 256GB/7-Core...</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(1 review)</h4>
+                                </div>
+                                <div class="disc">
+                                    <span class="price2">
+                                        $830.00
+                                    </span>
+                                    <span class="discount">
+                                        $930.00
+                                    </span>
+                                </div>
+                                <span class="out">
+                                    <i class="fa-solid fa-check"></i> Only 3 Left in Stock
+                                </span>
+                                <button class="buy2">
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card3">
+                            <div class="image">
+                                <img src="./imgs2/watch1.webp" alt="">
+                                <img src="./imgs2/watch2.webp" alt="" class="img2">
+                                <div class="icons">
+                                    <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
+                                    <div class="icon"><i class="fa-regular fa-eye"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h3>Apple Watch Almunium Case With Sport Loop</h3>
+                                <div class="card-mid">
+                                    <div class="stars">
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <h4>(2 review)</h4>
+                                </div>
+                                <span class="price">
+                                    $49.00
+                                </span>
+                                <span class="in">
+                                    <i class="fa-solid fa-check"></i> in Stock <span>10 Products</span>
+                                </span>
+                                <button class="buy2">
+                                    select options
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products3">
+            <div class="container">
+                <div class="row" id="row">
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="container">
+                    <div class="close2">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="overlay-row">
+                        <div class="left-image"></div>
+                        <div class="right-info">
+                            <h3></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere quas voluptate
+                                minima non eos recusandae hic! Cumque nisi ab, quod assumenda temporibus aliquam fugiat.
+                                Laborum assumenda quaerat ipsa quod.
+                            </p>
+                            <button>Rate It!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- JS -->
+    <script src="./js/main7.js"></script>
+</body>
+</html>
